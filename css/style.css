@@ -16,15 +16,26 @@ h1{
     margin: 15px auto;
 }
 
-.grid{
+.flex{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.grid img{
+.flex img{
     padding: 5px
+}
+
+.holaMundo:hover{
+    background-color: aquamarine;
+    transition: .3s;
+}
+
+h1:hover{
+    color: grey;
+    transform: skew(-15deg);
+    transition: .3s;
 }
 
 
