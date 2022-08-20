@@ -16,6 +16,18 @@ h1{
     margin: 15px auto;
 }
 
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    padding: 5px
+}
+
+
 /* Mobile last */
 @media (max-width: 650px){
     .holaMundo{
